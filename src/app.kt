@@ -1,0 +1,18 @@
+fun main() {
+    val noe = Persona("Noe","Diaz",21)
+    println(noe.toString())
+    println(Persona.toString())
+    val ivan = Persona("Ivan","Apellidoraro",19)
+    println(ivan.toString())
+    println(Persona.toString())
+    val samuel = Persona("Samuel","Verde",19)
+    println(samuel.toString())
+    println(Persona.toString())
+    val abelardo = Persona("Alelardo","Abe",25)
+    println(abelardo.toString())
+    println(Persona.toString())
+    val jose = Persona("Marcos","Alvarez",19)
+    println(jose.toString())
+    println(Persona.toString())
+    println(PersonaUnica.toString())
+}
